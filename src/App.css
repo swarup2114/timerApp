@@ -1,38 +1,37 @@
-.App {
+.date-container {
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 200px;
+  margin: 10px  auto;
+
   text-align: center;
+  background-color: #f0efef;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.date-container p {
+  margin: 10px 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.date-container p:nth-child(1) {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: start;
+  color: #b81c1c;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.date-container p:nth-child(2) {
+  margin-top: 15px;
+  text-align: start;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  font-weight: 700;
 }
+.date-container p:nth-child(3) {
+  margin-top: 15px;
+  text-align: start;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 20px;
+  font-weight: bold;
+  color: #b81c1c;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
